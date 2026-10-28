@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal portfolio of Vinit, B.Tech student in Artificial Intelligence and Machine Learning at JECRC University, Jaipur."
+    />
+    <title>Vinit | AI &amp; ML Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#home">Vinit</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-label="Switch to dark mode"
+          data-theme-toggle
+        >
+          <span class="theme-icon" aria-hidden="true">☾</span>
+          <span class="theme-label">Dark</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="profile-photo-section">
+            <div class="profile-frame">
+              <img
+                id="profile-photo"
+                src="images/profile.jpg"
+                alt="Professional profile photo of Vinit. Add your photo at images/profile.jpg."
+                width="320"
+                height="320"
+                onerror="this.onerror=null; this.src='images/profile-placeholder.svg';"
+              />
+            </div>
+            <p class="photo-note">
+              Save your professional photo as
+              <code>images/profile.jpg</code>
+              in this project folder to replace the placeholder.
+            </p>
+          </div>
+
+          <div class="hero-copy">
+            <p class="eyebrow">Personal Portfolio</p>
+            <h1>Vinit</h1>
+            <p class="role">
+              B.Tech in Artificial Intelligence and Machine Learning
+            </p>
+            <p class="college">JECRC University, Jaipur, Rajasthan</p>
+            <p class="lead">
+              I am a B.Tech student at JECRC University interested in
+              artificial intelligence, programming, and web development. I enjoy
+              learning new technologies and building practical projects.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a
+                class="btn btn-outline"
+                href="#"
+                id="github-profile-btn"
+                aria-disabled="true"
+                title="Add your GitHub profile URL"
+              >
+                GitHub Profile
+              </a>
+            </div>
+            <p class="pending-note">
+              GitHub username:
+              <strong>YOUR_GITHUB_USERNAME</strong>
+              — profile button is inactive until you add your real GitHub URL.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+            I am a B.Tech student at JECRC University interested in artificial
+            intelligence, programming, and web development. I enjoy learning new
+            technologies and building practical projects.
+          </p>
+          <ul class="about-meta">
+            <li>
+              <span>Name</span>
+              <strong>Vinit</strong>
+            </li>
+            <li>
+              <span>Course</span>
+              <strong>B.Tech in Artificial Intelligence and Machine Learning</strong>
+            </li>
+            <li>
+              <span>College</span>
+              <strong>JECRC University, Jaipur, Rajasthan</strong>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <h2>Skills &amp; Interests</h2>
+          <h3 class="subhead">Technical Skills</h3>
+          <ul class="chip-list">
+            <li>Python</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Artificial Intelligence and Machine Learning</li>
+          </ul>
+          <h3 class="subhead">Interests</h3>
+          <ul class="chip-list chip-list-gold">
+            <li>Artificial Intelligence</li>
+            <li>Web Development</li>
+            <li>Problem Solving</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Projects</h2>
+          <p class="section-intro">
+            Repository links are labelled as pending until real GitHub URLs are
+            provided. No placeholder URLs are used as live links.
+          </p>
+          <div class="project-grid">
+            <article class="project-card">
+              <h3>Python Programs Collection</h3>
+              <p>
+                A collection of Python programs used to practise core language
+                concepts, logic building, and problem solving.
+              </p>
+              <p class="tech-label">Technologies used</p>
+              <ul class="tech-list">
+                <li>Python</li>
+              </ul>
+              <p class="repo-pending">
+                GitHub repository link:
+                <strong>Add repository URL</strong>
+              </p>
+            </article>
+
+            <article class="project-card">
+              <h3>Messy Python Code Improvement</h3>
+              <p>
+                A code-cleanup project focused on improving readability,
+                structure, and maintainability of unstructured Python scripts.
+              </p>
+              <p class="tech-label">Technologies used</p>
+              <ul class="tech-list">
+                <li>Python</li>
+              </ul>
+              <p class="repo-pending">
+                GitHub repository link:
+                <strong>Add repository URL</strong>
+              </p>
+            </article>
+
+            <article class="project-card">
+              <h3>Bug Fixing Using Cursor AI</h3>
+              <p>
+                A debugging practice project that uses Cursor AI to locate
+                issues, understand error messages, and apply structured fixes.
+              </p>
+              <p class="tech-label">Technologies used</p>
+              <ul class="tech-list">
+                <li>Python</li>
+                <li>Cursor AI</li>
+              </ul>
+              <p class="repo-pending">
+                GitHub repository link:
+                <strong>Add repository URL</strong>
+              </p>
+            </article>
+
+            <article class="project-card">
+              <h3>Interactive Quiz Application</h3>
+              <p>
+                A browser-based quiz that presents questions, captures answers,
+                and shows a score to make learning more interactive.
+              </p>
+              <p class="tech-label">Technologies used</p>
+              <ul class="tech-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <p class="repo-pending">
+                GitHub repository link:
+                <strong>Add repository URL</strong>
+              </p>
+            </article>
+
+            <article class="project-card">
+              <h3>Book Reading List Application</h3>
+              <p>
+                An application for keeping a personal reading list, including
+                books to read and books already completed.
+              </p>
+              <p class="tech-label">Technologies used</p>
+              <ul class="tech-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <p class="repo-pending">
+                GitHub repository link:
+                <strong>Add repository URL</strong>
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-alt">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>
+            Use the labelled fields below until real contact details are added.
+            These values are placeholders, not working accounts.
+          </p>
+          <ul class="contact-list">
+            <li>
+              <span>Email</span>
+              <strong>YOUR_EMAIL</strong>
+            </li>
+            <li>
+              <span>GitHub username</span>
+              <strong>YOUR_GITHUB_USERNAME</strong>
+            </li>
+          </ul>
+          <a
+            class="btn btn-primary"
+            href="#"
+            id="github-contact-btn"
+            aria-disabled="true"
+            title="Add your GitHub profile URL"
+          >
+            GitHub Profile
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Vinit. All rights reserved.</p>
+        <p>JECRC University, Jaipur, Rajasthan</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
